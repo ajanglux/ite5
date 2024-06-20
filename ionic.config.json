@@ -1,0 +1,7 @@
+{
+  "name": "ite5",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
