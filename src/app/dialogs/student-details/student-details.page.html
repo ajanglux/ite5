@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <form (submit)="onSubmit()" [formGroup]="fgDetails">
+    <ion-item>
+      <ion-label position="floating">First Name</ion-label>
+      <ion-input formControlName="fld_fname" placeholder="Enter text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Middle Name</ion-label>
+      <ion-input formControlName="fld_mname" placeholder="Enter text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Last Name</ion-label>
+      <ion-input formControlName="fld_lname" placeholder="Enter text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Extension Name</ion-label>
+      <ion-input formControlName="fld_extname" placeholder="Enter text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Age</ion-label>
+      <ion-input formControlName="fld_age" placeholder="Enter text"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" type="submit">Submit</ion-button>
+    <ion-button expand="block" type="button" (click)="onCancel()">Cancel</ion-button>
+  </form>
+</ion-content>

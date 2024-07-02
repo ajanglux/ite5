@@ -1,5 +1,5 @@
 import { NgModule } from "@angular/core";
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonInput, IonItem } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonInput, IonItem, IonList, IonLabel } from '@ionic/angular/standalone';
 import { ExploreContainerComponent } from "src/app/explore-container/explore-container.component";
 
 const var_modules = [
@@ -10,6 +10,8 @@ const var_modules = [
     IonButton, 
     IonInput, 
     IonItem,
+    IonList,
+    IonLabel,
     ExploreContainerComponent,
 ]
 @NgModule({
